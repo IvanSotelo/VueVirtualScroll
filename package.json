@@ -1,6 +1,14 @@
 {
-  "name": "@controlla/vue-virtual-scroll",
+  "name": "@ivansotelo/vue-virtual-scroll",
   "version": "1.0.4",
+  "description": "Framework Components for Vue js",
+  "license": "MIT",
+  "author": "Ivan Sotelo <isotelo@controlla.com.mx>",
+  "homepage": "https://IvanSotelo.github.io/VueVirtualScroll/",
+  "repository": "IvanSotelo/VueVirtualScroll",
+  "bugs": {
+    "url": "https://github.com/IvanSotelo/VueVirtualScroll/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -21,6 +29,9 @@
     "*.js"
   ],
   "main": "./dist/VueVirtualScroll.common.js",
+  "unpkg": "dist/VueVirtualScroll.umd.min.js",
+  "jsdelivr": "dist/VueVirtualScroll.umd.min.js",
+  "private": false,
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-e2e-cypress": "^3.3.0",
